@@ -27,7 +27,7 @@ export const destinations = [
  {id:'mountains-wadis', name:bi('Mountains & Wadis','الجبال والأودية'), subtitle:bi('Follow your sense of discovery','اتبع شغفك بالاكتشاف'), description:bi('Rugged peaks, palm-lined valleys, and remarkable natural scenery make Oman a place to explore with curiosity.','قمم شاهقة وأودية تحفها النخيل ومناظر طبيعية رائعة تجعل عُمان وجهة للاستكشاف بشغف.'), image:wadi},
  {id:'islands', name:bi('Islands & Remote Shores','الجزر والشواطئ النائية'), subtitle:bi('A little further from the everyday','بعيدًا عن روتين الحياة'), description:bi('Remote coastal landscapes and island horizons invite a slower way of seeing Oman. Ask our team which locations can be arranged.','مناظر ساحلية نائية وآفاق جزر تدعوك للاستمتاع بعُمان بهدوء. اسأل فريقنا عن المواقع التي يمكن ترتيب زيارتها.'), image:coast},
 ];
-export const faqs = [
+export const faqs: [Bilingual, Bilingual][] = [
  [bi('How can I request a booking?','كيف يمكنني طلب الحجز؟'),bi('Choose an experience and complete our on-site request form. Our team will contact you to discuss availability and details.','اختر تجربة وأكمل نموذج طلب الحجز على الموقع. سيتواصل معك فريقنا لمناقشة التوفر والتفاصيل.')],
  [bi('Is my booking confirmed immediately?','هل يُؤكد الحجز فورًا؟'),bi('No. Submitting a request is not a confirmed reservation. Availability, final pricing, and arrangements must be agreed with our team.','لا. إرسال الطلب لا يعني تأكيد الحجز. يجب الاتفاق مع فريقنا على التوفر والسعر النهائي والترتيبات.')],
  [bi('What is included in each experience?','ما الذي تتضمنه كل تجربة؟'),bi('Inclusions vary and will be agreed before confirmation. Do not assume meals, tents, transport, accommodation, or equipment are included.','تختلف المشمولات ويُتفق عليها قبل التأكيد. لا تفترض أن الوجبات أو الخيام أو النقل أو الإقامة أو المعدات مشمولة.')],
@@ -38,7 +38,7 @@ export const faqs = [
  [bi('What are the cancellation and refund policies?','ما سياسة الإلغاء واسترداد الأموال؟'),bi('Please ask our team for the applicable cancellation, payment, and refund terms before confirming your booking.','يرجى سؤال فريقنا عن شروط الإلغاء والدفع واسترداد الأموال المطبقة قبل تأكيد الحجز.')],
  [bi('How can I contact Earth Adventure?','كيف يمكنني التواصل مع Earth Adventure؟'),bi('Reach us on WhatsApp at +96891915594 or through Instagram @earthadventure_. You can also submit a booking inquiry on this website.','تواصل معنا عبر واتساب على +96891915594 أو إنستغرام @earthadventure_. يمكنك أيضًا إرسال طلب حجز عبر هذا الموقع.')],
 ];
-export const values = [
+export const values: [Bilingual, Bilingual][] = [
  [bi('Made for your kind of adventure','مغامرات تناسبك'),bi('From a quiet escape to a shared outdoor journey, start with what inspires you.','من رحلة هادئة إلى مغامرة جماعية، ابدأ بما يلهمك.')],
  [bi('Better, together','أجمل معًا'),bi('Experiences for individuals, friends, families, and groups.','تجارب للأفراد والأصدقاء والعائلات والمجموعات.')],
  [bi('A personal approach','اهتمام شخصي'),bi('Talk directly with our team and plan the details that matter to you.','تحدث مباشرة مع فريقنا وخطط للتفاصيل المهمة لك.')],
